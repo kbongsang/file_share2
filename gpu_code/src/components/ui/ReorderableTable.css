@@ -1,0 +1,60 @@
+.shift-btn {
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+
+.shift-btn.up {
+    background-color: red;
+}
+
+.shift-btn.down {
+    background-color: green;
+    float: right;
+}
+
+.shift-btn.disabled {
+    background-color: grey;
+}
+
+.reorderable-table{ 
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #3d3d3d;
+}
+
+.reorderable-table-th {
+  border-bottom: 1px solid gray;
+  max-width: 0;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  /* white-space: nowrap; */
+  padding: 1px 20px 1px 20px;
+  border: 1px solid rgb(75, 75, 75);
+}
+
+.reorderable-table-td {
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 1px 20px 1px 20px;
+    border: 1px solid rgb(75, 75, 75);
+
+}
+
+.reorderable-select{
+    width: 100%;
+}
+
+.reorderable-input {
+    width: calc(100% - 10px)
+}
+
+
+.reorderable-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 20px 20px 0px;
+    gap: 10px;
+}
